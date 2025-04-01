@@ -73,10 +73,5 @@ dtype: float64
 
 Nombre total de valeurs manquantes :
 
-Un total de 49 141 valeurs manquantes sont présentes dans le dataset. Cela représente environ 30% des données, ce qui nécessitera une attention particulière pour les étapes suivantes. 
-print(df.isnull().sum().sum())
-49141
+Un total de 49 141 valeurs manquantes sont présentes dans le dataset.
 
-Visualisation des valeurs manquantes avec une carte thermiques : 
-
-Pour visualiser les valeurs manquantes, j’utilise une carte thermique avec la bibliothèque seaborn.
